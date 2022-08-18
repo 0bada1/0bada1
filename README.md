@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @0bada1
 - 👀 I’m interested in game development, game design, general purpose programming, etc
 - 🌱 I’m currently studying in 42 AbuDhabi and learning software development. I know C, Python, SQL, HTML, CSS & Javascript
-- 💞️ I’m looking to collaborate and work in any project or work related to programming and software development
+- 💞️ I’m looking to collaborate and work in any project or job related to programming and software development
 - 📫 You can reach me out discord: Obada#0171 or on email: obadaoutabachi2003@hotmail.com
 
 <!---
