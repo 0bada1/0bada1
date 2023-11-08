@@ -1,8 +1,6 @@
-- 👋 Hi, I’m @0bada1
-- 👀 I’m interested in game development, game design, general purpose programming, etc
-- 🌱 I’m currently studying in 42 AbuDhabi and learning software development. I know C, Python, SQL, HTML, CSS & Javascript
-- 💞️ I’m looking to collaborate and work in any project or job related to programming and software development
-- 📫 You can reach me out on email: ObadaOutabachi2003@hotmail.com
+Obada Outabachi. I am a Software Developer currently studying in 42 AbuDhabi. I am also studying a complete computer science curriculum. I am interested in AI, machine learning and neural networks. I am proficient in C/C++, Python, and currently learning Javascript.
+Contact me on Email: ObadaOutabachi2003@hotmail.com
+or Discord: 0badax
 
 <!---
 0bada1/0bada1 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
