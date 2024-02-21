@@ -1,4 +1,4 @@
-Obada Outabachi. I am a Software Developer currently studying in 42 AbuDhabi. I am also studying a complete bachelor's computer science curriculum. I am interested in AI, machine learning and neural networks. I am proficient in C/C++, Python, and currently learning Javascript.
+Obada Outabachi. I am a Software Developer currently studying in 42 AbuDhabi. I am also studying a complete bachelors computer science curriculum. I am interested in AI, machine learning and neural networks. I am proficient in C/C++, Python, and currently learning Javascript.
 Contact me on Email: ObadaOutabachi2003@hotmail.com
 or Discord: 0badax
 
