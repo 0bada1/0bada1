@@ -1,9 +1,9 @@
 <h1>Obada Outabachi</h1>
 <p>Breaking the next barriers...</p>
+I am an aspiring AI developer and a graduate from 42 Abu Dhabi and computer science student at UoPeople<br><br>
 
 ![0bada1 Github Stats](https://github-readme-stats.vercel.app/api?username=0bada1&show_icons=true&theme=aura)
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=0bada1&hide=Jupyter%20Notebook&layout=compact&theme=aura)](https://github.com/rahulbordoloi/github-readme-stats)<br>
-I am an aspiring AI developer and a graduate from 42 Abu Dhabi and computer science student at UoPeople
 
 <h3>Some of my capstone projects</h3>
 
