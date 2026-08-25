@@ -1,36 +1,135 @@
-<h1>Obada Outabachi</h1>
-<p>Breaking the next barriers...</p>
-I am an aspiring AI developer and a graduate from 42 Abu Dhabi and computer science student at UoPeople<br><br>
+<!--
+  OBADA — GitHub Profile README
 
-![0bada1 Github Stats](https://github-readme-stats.vercel.app/api?username=0bada1&show_icons=true&theme=aura)
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=0bada1&hide=Jupyter%20Notebook&layout=compact&theme=aura)](https://github.com/rahulbordoloi/github-readme-stats)<br>
+  SVG assets:
+  /assets/hero.svg
+  /assets/divider.svg
+  /assets/footer.svg
 
-<h3>Some of my capstone projects</h3>
+  Replace the placeholder SVG files with your animated versions.
+-->
 
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=0bada1&repo=minishell-1&theme=aura)](https://github.com/0bada1/minishell-1)
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=0bada1&repo=ft_IRC&theme=aura)](https://github.com/0bada1/ft_IRC)
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=0bada1&repo=Philosophers&theme=aura)](https://github.com/0bada1/Philosophers)
-
-<h3>What I plan on doing next</h3>
-
-- [ ] 3D Renderer with C++23 and OpenGL
-- [ ] 3D Rubiks cube solver with Python
-- [ ] Create a portfolio website
-
-<h3>📫 How to reach me</h3>
-
-[<img src="https://raw.githubusercontent.com/dheereshagrwal/colored-icons/master/public/logos/linkedin/linkedin.svg" height="40em" align="center" alt="Follow Obada on LinkedIn" title="Follow Obada Outabachi on LinkedIn"/>](https://linkedin.com/in/obada-outabachi)
-[<img src="https://raw.githubusercontent.com/dheereshagrwal/colored-icons/master/public/logos/discord/discord.svg" height="40em" align="center" alt="Contact Obada on discord" title="Contact Obada on discord"/>](https://discordapp.com/users/1135319787472433223)
-[<img src="https://raw.githubusercontent.com/dheereshagrwal/colored-icons/master/public/logos/gmail/gmail.svg" height="40em" align="center" alt="Contact Obada on hotmail" title="Contact Obada on hotmail"/>](mailto:obadaoutabachi2003@hotmail.com)
-
-<p>I am ready to collaborate on projects, so reach out to me whenever!</p>
-
-<a href=#><img src="contributions.svg"></a>
-
-<p align="center"> 
-  Visitor count<br>
-  <img src="https://profile-counter.glitch.me/0bada1/count.svg" />
+<p align="center">
+  <img src="./assets/hero.svg" width="100%" alt="Obada — AI Engineer, Software Developer, Builder" />
 </p>
+
+<p align="center">
+  <a href="YOUR_LINKEDIN_URL">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+  <a href="mailto:YOUR_EMAIL">
+    <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
+  </a>
+  <a href="https://github.com/YOUR_USERNAME">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+</p>
+
+<br>
+
+## Who am I?
+
+I'm an **AI-focused software developer based in the UAE**. I enjoy taking complicated problems and figuring out how software, AI, and automation can make them simpler.
+
+My main interests are **AI engineering, agentic systems, LLMs, automation, and software architecture**.
+
+I don't want to just use AI APIs. I want to understand the systems behind them and eventually be able to design and build the whole thing — from the underlying software to the intelligent layer.
+
+<p align="center">
+  <img src="./assets/divider.svg" width="70%" alt="" />
+</p>
+
+## Things I've Built
+
+### AI Systems
+
+I've built AI-powered systems that combine **LLMs, agents, automation, structured workflows, and human review** to solve problems that would otherwise require significant manual effort.
+
+One of my larger projects is an **automated assessment generation system** designed for international educational programs.
+
+I've also built **RAG-based applications**, connecting language models to external knowledge sources so they can work with information beyond their training data.
+
+### Education Technology
+
+I've worked on **large-scale digital assessment platforms** designed for students, combining software engineering with education technology and AI.
+
+This is an area I particularly enjoy because it sits right between two things I'm interested in: **building useful technology and making learning better**.
+
+### Automation
+
+I've built workflows that connect **AI models, APIs, databases, and business processes**, turning complicated multi-step tasks into automated systems.
+
+I'm especially interested in where automation ends and genuinely **agentic software** begins.
+
+<p align="center">
+  <img src="./assets/divider.svg" width="70%" alt="" />
+</p>
+
+## Experience
+
+**Technical Pedagogy Developer**  
+Abu Dhabi Department of Education and Knowledge
+
+Working on AI, software, automation, and education technology.
+
+I've had the opportunity to work on systems where an AI prototype isn't enough — they need to be reliable, maintainable, secure, and useful at scale.
+
+Previously, I worked on AI and software projects involving **LLMs, RAG, education technology, automation, and full-stack development**.
+
+<p align="center">
+  <img src="./assets/divider.svg" width="70%" alt="" />
+</p>
+
+## Education
+
+**University of the People**  
+Computer Science
+
+**42 Abu Dhabi**  
+Software Engineering & Computer Science
+
+I learn heavily through building things myself. Formal education gives me the foundations; projects and experimentation are where I tend to go much deeper.
+
+<p align="center">
+  <img src="./assets/divider.svg" width="70%" alt="" />
+</p>
+
+## Technologies
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,cpp,c,java,js,ts,html,css,react,vue,nodejs,express,laravel,mongodb,mysql,git,github,linux" />
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white" />
+  <img src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black" />
+  <img src="https://img.shields.io/badge/Pinecone-000000?style=flat-square&logo=pinecone&logoColor=white" />
+  <img src="https://img.shields.io/badge/n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white" />
+  <img src="https://img.shields.io/badge/RAG-333333?style=flat-square" />
+  <img src="https://img.shields.io/badge/Agentic%20AI-333333?style=flat-square" />
+</p>
+
+<p align="center">
+  <sub>Python · C++ · C · Java · JavaScript · TypeScript · React · Vue · Node.js · Laravel · SQL · MongoDB · Linux</sub>
+</p>
+
+<p align="center">
+  <img src="./assets/divider.svg" width="70%" alt="" />
+</p>
+
+## What I'm Exploring
+
+I'm currently going deeper into **AI system architecture** — especially how models, agents, tools, memory, retrieval, and traditional software can work together to create useful systems.
+
+```text
+AI Engineering
+     │
+     ├── LLMs
+     ├── Agents
+     ├── RAG
+     ├── Tool Use
+     ├── Automation
+     └── System Architecture
 
 <!---
 0bada1/0bada1 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
