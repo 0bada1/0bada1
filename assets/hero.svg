@@ -8,7 +8,6 @@
       <stop offset="100%" stop-color="#020304"/>
     </radialGradient>
 
-    <!-- Nebula Cloud Gradients -->
     <radialGradient id="nebulaA" cx="40%" cy="40%" r="50%">
       <stop offset="0%" stop-color="#222834" stop-opacity="0.14"/>
       <stop offset="50%" stop-color="#151922" stop-opacity="0.06"/>
@@ -21,7 +20,7 @@
       <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
     </radialGradient>
 
-    <!-- Brushed Gunmetal & Obsidian Gradients -->
+    <!-- Metal Gradients -->
     <linearGradient id="gunmetalGrad" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#4a525d"/>
       <stop offset="25%" stop-color="#2a2e36"/>
@@ -72,41 +71,13 @@
       <feGaussianBlur stdDeviation="22"/>
     </filter>
 
-    <!-- ================================================= -->
-    <!-- AI VECTOR SYMBOLS (Centered at Local Origin 0,0)  -->
-    <!-- ================================================= -->
-
-    <!-- OpenAI Node -->
-    <g id="iconOpenAI">
-      <path transform="translate(-12, -12)" fill="currentColor" fill-rule="evenodd" d="M9.205 8.658v-2.26c0-.19.072-.333.238-.428l4.543-2.616c.619-.357 1.356-.523 2.117-.523 2.854 0 4.662 2.212 4.662 4.566 0 .167 0 .357-.024.547l-4.71-2.759a.797.797 0 00-.856 0l-5.97 3.473zm10.609 8.8V12.06c0-.333-.143-.57-.429-.737l-5.97-3.473 1.95-1.118a.433.433 0 01.476 0l4.543 2.617c1.309.76 2.189 2.378 2.189 3.948 0 1.808-1.07 3.473-2.76 4.163zM7.802 12.703l-1.95-1.142c-.167-.095-.239-.238-.239-.428V5.899c0-2.545 1.95-4.472 4.591-4.472 1 0 1.927.333 2.712.928L8.23 5.067c-.285.166-.428.404-.428.737v6.898zM12 15.128l-2.795-1.57v-3.33L12 8.658l2.795 1.57v3.33L12 15.128zm1.796 7.23c-1 0-1.927-.332-2.712-.927l4.686-2.712c.285-.166.428-.404.428-.737v-6.898l1.974 1.142c.167.095.238.238.238.428v5.233c0 2.545-1.974 4.472-4.614 4.472zm-5.637-5.303l-4.544-2.617c-1.308-.761-2.188-2.378-2.188-3.948A4.482 4.482 0 014.21 6.327v5.423c0 .333.143.571.428.738l5.947 3.449-1.95 1.118a.432.432 0 01-.476 0zm-.262 3.9c-2.688 0-4.662-2.021-4.662-4.519 0-.19.024-.38.047-.57l4.686 2.71c.286.167.571.167.856 0l5.97-3.448v2.26c0 .19-.07.333-.237.428l-4.543 2.616c-.619.357-1.356.523-2.117.523zm5.899 2.83a5.947 5.947 0 005.827-4.756C22.287 18.339 24 15.84 24 13.296c0-1.665-.713-3.282-1.998-4.448.119-.5.19-.999.19-1.498 0-3.401-2.759-5.947-5.946-5.947-.642 0-1.26.095-1.88.31A5.962 5.962 0 0010.205 0a5.947 5.947 0 00-5.827 4.757C1.713 5.447 0 7.945 0 10.49c0 1.666.713 3.283 1.998 4.448-.119.5-.19 1-.19 1.499 0 3.401 2.759 5.946 5.946 5.946.642 0 1.26-.095 1.88-.309a5.96 5.96 0 004.162 1.713z"/>
-    </g>
-
-    <!-- Google Gemini Spark -->
-    <g id="iconGemini">
-      <path transform="translate(-12, -12)" fill="currentColor" d="M12 0C12 6.627 6.627 12 0 12c6.627 0 12 5.373 12 12 0-6.627 5.373-12 12-12-6.627 0-12-5.373-12-12z"/>
-    </g>
-
-    <!-- Anthropic Claude Spark -->
-    <g id="iconClaude">
-      <g transform="translate(-12, -12)">
-        <path fill="currentColor" d="M13.8 2.2a1.8 1.8 0 0 0-3.6 0l-.5 4.8a.6.6 0 0 1-.5.5l-4.8.5a1.8 1.8 0 0 0 0 3.6l4.8.5a.6.6 0 0 1 .5.5l.5 4.8a1.8 1.8 0 0 0 3.6 0l.5-4.8a.6.6 0 0 1 .5-.5l4.8-.5a1.8 1.8 0 0 0 0-3.6l-4.8-.5a.6.6 0 0 1-.5-.5l-.5-4.8z"/>
-        <circle cx="12" cy="12" r="2.2" fill="#0b0e14"/>
-      </g>
-    </g>
-
-    <!-- Nous Hermes Crest -->
-    <g id="iconHermes">
-      <path transform="translate(-12, -12)" fill="currentColor" d="M12 2L3 6v6c0 5.5 3.8 10.7 9 12 5.2-1.3 9-6.5 9-12V6l-9-4zm0 3.2l5.5 2.5v4.2c0 3.6-2.3 6.9-5.5 8-3.2-1.1-5.5-4.4-5.5-8V7.7L12 5.2zm-1 3.8v4h2V9h-2zm0 5v2h2v-2h-2z"/>
-    </g>
-
-    <!-- HUD Crosshair Reticle -->
+    <!-- Sub-Assets -->
     <g id="hudReticle">
       <line x1="-8" y1="0" x2="8" y2="0" stroke="#485363" stroke-width="0.8" stroke-opacity="0.4"/>
       <line x1="0" y1="-8" x2="0" y2="8" stroke="#485363" stroke-width="0.8" stroke-opacity="0.4"/>
       <circle cx="0" cy="0" r="14" fill="none" stroke="#36404e" stroke-width="0.6" stroke-dasharray="2, 6" opacity="0.5"/>
     </g>
 
-    <!-- Robotic Probe -->
     <g id="microDrone">
       <polygon points="0,-7 6,4 0,2 -6,4" fill="#20242b" stroke="#4a5566" stroke-width="0.7"/>
       <circle cx="0" cy="0" r="1.2" fill="#718299" opacity="0.8"/>
@@ -115,16 +86,16 @@
       <circle cx="0" cy="0" r="10" fill="none" stroke="#2c3542" stroke-width="0.4" stroke-dasharray="2,4" opacity="0.35"/>
     </g>
 
-    <!-- Clip Mask for Typography -->
+    <g id="aiSilhouetteNode">
+      <path fill="#262d38" fill-rule="evenodd" d="M9.205 8.658v-2.26c0-.19.072-.333.238-.428l4.543-2.616c.619-.357 1.356-.523 2.117-.523 2.854 0 4.662 2.212 4.662 4.566 0 .167 0 .357-.024.547l-4.71-2.759a.797.797 0 00-.856 0l-5.97 3.473zm10.609 8.8V12.06c0-.333-.143-.57-.429-.737l-5.97-3.473 1.95-1.118a.433.433 0 01.476 0l4.543 2.617c1.309.76 2.189 2.378 2.189 3.948 0 1.808-1.07 3.473-2.76 4.163zM7.802 12.703l-1.95-1.142c-.167-.095-.239-.238-.239-.428V5.899c0-2.545 1.95-4.472 4.591-4.472 1 0 1.927.333 2.712.928L8.23 5.067c-.285.166-.428.404-.428.737v6.898zM12 15.128l-2.795-1.57v-3.33L12 8.658l2.795 1.57v3.33L12 15.128zm1.796 7.23c-1 0-1.927-.332-2.712-.927l4.686-2.712c.285-.166.428-.404.428-.737v-6.898l1.974 1.142c.167.095.238.238.238.428v5.233c0 2.545-1.974 4.472-4.614 4.472zm-5.637-5.303l-4.544-2.617c-1.308-.761-2.188-2.378-2.188-3.948A4.482 4.482 0 014.21 6.327v5.423c0 .333.143.571.428.738l5.947 3.449-1.95 1.118a.432.432 0 01-.476 0zm-.262 3.9c-2.688 0-4.662-2.021-4.662-4.519 0-.19.024-.38.047-.57l4.686 2.71c.286.167.571.167.856 0l5.97-3.448v2.26c0 .19-.07.333-.237.428l-4.543 2.616c-.619.357-1.356.523-2.117.523zm5.899 2.83a5.947 5.947 0 005.827-4.756C22.287 18.339 24 15.84 24 13.296c0-1.665-.713-3.282-1.998-4.448.119-.5.19-.999.19-1.498 0-3.401-2.759-5.947-5.946-5.947-.642 0-1.26.095-1.88.31A5.962 5.962 0 0010.205 0a5.947 5.947 0 00-5.827 4.757C1.713 5.447 0 7.945 0 10.49c0 1.666.713 3.283 1.998 4.448-.119.5-.19 1-.19 1.499 0 3.401 2.759 5.946 5.946 5.946.642 0 1.26-.095 1.88-.309a5.96 5.96 0 004.162 1.713z"/>
+    </g>
+
     <clipPath id="textClipMask">
       <text x="0" y="0" text-anchor="middle" dominant-baseline="central" font-family="'Space Grotesk', 'Syne', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="78" font-weight="900" letter-spacing="12">OBADA OUTABACHI</text>
     </clipPath>
 
-    <!-- ================================================= -->
-    <!-- CONTINUOUS TRAJECTORY & SPIN KEYFRAMES ENGINE    -->
-    <!-- ================================================= -->
+    <!-- CSS Keyframe Engine -->
     <style>
-      /* Hero Center Levitation */
       @keyframes levitate {
         0%, 100% { transform: translate(600px, 350px) rotate(-0.5deg) scale(1); }
         50% { transform: translate(605px, 362px) rotate(0.8deg) scale(1.008); }
@@ -137,93 +108,50 @@
         0%, 100% { transform: translate(0px, 0px); }
         50% { transform: translate(18px, 14px); }
       }
-
-      /* Flight Paths (Screen Crossings with Seamless Loops) */
-      @keyframes flyPathLR1 {
-        0%   { transform: translate(-90px, 150px); }
-        100% { transform: translate(1290px, 185px); }
+      @keyframes droneA {
+        0%, 100% { transform: translate(240px, 480px) rotate(-8deg); }
+        50% { transform: translate(268px, 498px) rotate(0deg); }
       }
-      @keyframes flyPathRL1 {
-        0%   { transform: translate(1290px, 270px); }
-        100% { transform: translate(-90px, 230px); }
+      @keyframes droneB {
+        0%, 100% { transform: translate(960px, 220px) rotate(15deg); }
+        50% { transform: translate(928px, 236px) rotate(27deg); }
       }
-      @keyframes flyPathLR2 {
-        0%   { transform: translate(-90px, 520px); }
-        100% { transform: translate(1290px, 475px); }
+      @keyframes droneC {
+        0%, 100% { transform: translate(560px, 120px) rotate(-40deg); }
+        50% { transform: translate(605px, 130px) rotate(-38deg); }
       }
-      @keyframes flyPathLR3 {
-        0%   { transform: translate(-90px, 85px); }
-        100% { transform: translate(1290px, 115px); }
+      @keyframes relicSpin {
+        0% { transform: translate(180px, 160px) scale(1.6) rotate(0deg); }
+        100% { transform: translate(180px, 160px) scale(1.6) rotate(360deg); }
       }
-      @keyframes flyPathRL2 {
-        0%   { transform: translate(1290px, 440px); }
-        100% { transform: translate(-90px, 480px); }
+      @keyframes relicDrift {
+        0%, 100% { transform: translate(1010px, 480px) scale(1.2) rotate(25deg); }
+        50% { transform: translate(998px, 490px) scale(1.2) rotate(45deg); }
       }
-      @keyframes flyPathLR4 {
-        0%   { transform: translate(-90px, 620px); }
-        100% { transform: translate(1290px, 580px); }
-      }
-
-      /* Axial Spin Rotations */
-      @keyframes spinCW {
-        0%   { transform: rotate(0deg); }
-        100% { transform: rotate(360deg); }
-      }
-      @keyframes spinCCW {
-        0%   { transform: rotate(0deg); }
-        100% { transform: rotate(-360deg); }
-      }
-
-      /* Autonomous Drone Flight */
-      @keyframes droneFlightA {
-        0%   { transform: translate(-80px, 470px) rotate(-6deg); }
-        100% { transform: translate(1280px, 495px) rotate(4deg); }
-      }
-      @keyframes droneFlightB {
-        0%   { transform: translate(1280px, 160px) rotate(18deg); }
-        100% { transform: translate(-80px, 130px) rotate(14deg); }
-      }
-
-      /* Twinkle & Neural Grid */
       @keyframes starTwinkleA { 0%, 100% { opacity: 0.2; } 50% { opacity: 0.9; } }
       @keyframes starTwinkleB { 0%, 100% { opacity: 0.7; } 50% { opacity: 0.15; } }
       @keyframes starTwinkleC { 0%, 100% { opacity: 0.35; } 50% { opacity: 0.85; } }
-      @keyframes meshPulse { 0%, 100% { opacity: 0.25; } 50% { opacity: 0.55; } }
+      @keyframes meshPulse { 0%, 100% { opacity: 0.3; } 50% { opacity: 0.6; } }
 
-      /* Animation Bindings with Staggered Negative Delays */
       .anim-hero { animation: levitate 7s ease-in-out infinite; }
       .anim-gleam { animation: gleamMove 2.6s linear infinite; }
       .anim-nebula { animation: nebulaFloat 14s ease-in-out infinite; }
+      .anim-drone-1 { animation: droneA 6s ease-in-out infinite; }
+      .anim-drone-2 { animation: droneB 5.5s ease-in-out infinite; }
+      .anim-drone-3 { animation: droneC 8s ease-in-out infinite; }
+      .anim-relic-1 { animation: relicSpin 24s linear infinite; transform-origin: 12px 12px; }
+      .anim-relic-2 { animation: relicDrift 9s ease-in-out infinite; transform-origin: 12px 12px; }
       .anim-mesh { animation: meshPulse 6s ease-in-out infinite; }
-
-      /* Flight Track Classes (Translate) */
-      .track-openai-1  { animation: flyPathLR1 26s linear infinite; animation-delay: -9s; }
-      .track-gemini-1  { animation: flyPathRL1 22s linear infinite; animation-delay: -14s; }
-      .track-claude-1  { animation: flyPathLR2 24s linear infinite; animation-delay: -17s; }
-      .track-hermes-1  { animation: flyPathLR3 30s linear infinite; animation-delay: -5s; }
-      .track-openai-2  { animation: flyPathRL2 28s linear infinite; animation-delay: -21s; }
-      .track-gemini-2  { animation: flyPathLR4 34s linear infinite; animation-delay: -27s; }
-
-      .track-drone-1   { animation: droneFlightA 20s linear infinite; animation-delay: -8s; }
-      .track-drone-2   { animation: droneFlightB 18s linear infinite; animation-delay: -12s; }
-
-      /* Local Spin Classes (Rotate) */
-      .spin-cw-fast    { animation: spinCW 9s linear infinite; }
-      .spin-cw-mid     { animation: spinCW 14s linear infinite; }
-      .spin-cw-slow    { animation: spinCW 20s linear infinite; }
-      .spin-ccw-mid    { animation: spinCCW 11s linear infinite; }
-      .spin-ccw-slow   { animation: spinCCW 18s linear infinite; }
-
       .tw-a { animation: starTwinkleA 2.6s ease-in-out infinite; }
       .tw-b { animation: starTwinkleB 3.8s ease-in-out infinite; }
       .tw-c { animation: starTwinkleC 2.1s ease-in-out infinite; }
     </style>
   </defs>
 
-  <!-- Background Base -->
+  <!-- Background -->
   <rect width="1200" height="700" fill="url(#voidGradient)"/>
 
-  <!-- Layer 0: Nebulae Volumes -->
+  <!-- Layer 0: Nebulae -->
   <g class="anim-nebula" style="mix-blend-mode: screen; pointer-events: none;">
     <ellipse cx="420" cy="310" rx="380" ry="240" fill="url(#nebulaA)" filter="url(#nebulaDust)"/>
     <ellipse cx="820" cy="420" rx="340" ry="210" fill="url(#nebulaB)" filter="url(#nebulaDust)"/>
@@ -249,7 +177,7 @@
     <circle cx="1130" cy="490" r="1.1" fill="#8da0b8" class="tw-c"/>
   </g>
 
-  <!-- Layer 2: Abstract Neural Network Grid -->
+  <!-- Layer 2: Neural Mesh -->
   <g class="anim-mesh" opacity="0.45">
     <path d="M 120 220 L 260 150 M 260 150 L 380 280 M 120 220 L 220 390 M 380 280 L 220 390 M 380 280 L 440 460 M 220 390 L 440 460 M 780 180 L 920 130 M 920 130 L 1060 260 M 780 180 L 860 420 M 1060 260 L 860 420 M 1060 260 L 1020 520 M 860 420 L 1020 520 M 440 460 L 600 580 M 860 420 L 600 580" fill="none" stroke="#2a3340" stroke-width="0.8" stroke-dasharray="3, 5"/>
     <circle cx="120" cy="220" r="2.2" fill="#4b5568"/>
@@ -265,62 +193,24 @@
     <circle cx="600" cy="580" r="2.2" fill="#4b5568"/>
   </g>
 
-  <!-- ================================================= -->
-  <!-- Layer 3: CONTINUOUS FLYING & SPINNING AI ICONS     -->
-  <!-- ================================================= -->
-  <g id="aiFlightLayer">
-    <!-- 1. OpenAI (Upper Track: Left -> Right) -->
-    <g class="track-openai-1">
-      <g class="spin-cw-slow" opacity="0.32" style="color: #4a5568;">
-        <use href="#iconOpenAI" transform="scale(1.5)"/>
-      </g>
-    </g>
-
-    <!-- 2. Gemini (Upper-Mid Track: Right -> Left) -->
-    <g class="track-gemini-1">
-      <g class="spin-ccw-mid" opacity="0.4" style="color: #718096;">
-        <use href="#iconGemini" transform="scale(1.6)"/>
-      </g>
-    </g>
-
-    <!-- 3. Claude (Lower-Mid Track: Left -> Right) -->
-    <g class="track-claude-1">
-      <g class="spin-cw-mid" opacity="0.3" style="color: #4a5568;">
-        <use href="#iconClaude" transform="scale(1.35)"/>
-      </g>
-    </g>
-
-    <!-- 4. Hermes (High Orbit Track: Left -> Right) -->
-    <g class="track-hermes-1">
-      <g class="spin-cw-slow" opacity="0.25" style="color: #334155;">
-        <use href="#iconHermes" transform="scale(1.2)"/>
-      </g>
-    </g>
-
-    <!-- 5. Distant OpenAI (Mid-Lower Track: Right -> Left) -->
-    <g class="track-openai-2">
-      <g class="spin-ccw-slow" opacity="0.22" style="color: #2d3748;">
-        <use href="#iconOpenAI" transform="scale(1.1)"/>
-      </g>
-    </g>
-
-    <!-- 6. Deep Gemini (Low Horizon Track: Left -> Right) -->
-    <g class="track-gemini-2">
-      <g class="spin-cw-fast" opacity="0.25" style="color: #4a5568;">
-        <use href="#iconGemini" transform="scale(1.0)"/>
-      </g>
-    </g>
-
-    <!-- Autonomous Robotic Probes Crossing the Sector -->
-    <g class="track-drone-1">
-      <use href="#microDrone"/>
-    </g>
-    <g class="track-drone-2">
-      <use href="#microDrone" transform="scale(0.8)"/>
-    </g>
+  <!-- Layer 3: Tech Relics & Probes -->
+  <g class="anim-relic-1" opacity="0.28">
+    <use href="#aiSilhouetteNode"/>
+  </g>
+  <g class="anim-relic-2" opacity="0.22">
+    <use href="#aiSilhouetteNode"/>
+  </g>
+  <g class="anim-drone-1">
+    <use href="#microDrone"/>
+  </g>
+  <g class="anim-drone-2">
+    <use href="#microDrone"/>
+  </g>
+  <g class="anim-drone-3">
+    <use href="#microDrone" transform="scale(0.7)"/>
   </g>
 
-  <!-- Layer 4: HUD & Telemetry Reticles -->
+  <!-- Layer 4: HUD & Telemetry -->
   <g opacity="0.38">
     <use href="#hudReticle" x="140" y="100"/>
     <use href="#hudReticle" x="1060" y="100"/>
@@ -339,29 +229,29 @@
     <text x="0" y="0" text-anchor="middle" dominant-baseline="central" font-family="'Space Grotesk', 'Syne', -apple-system, sans-serif" font-size="78" font-weight="900" letter-spacing="12" fill="#000000" opacity="0.9" filter="url(#obsidianDepth)" transform="translate(0, 14)">OBADA OUTABACHI</text>
     <text x="0" y="0" text-anchor="middle" dominant-baseline="central" font-family="'Space Grotesk', 'Syne', -apple-system, sans-serif" font-size="78" font-weight="900" letter-spacing="12" fill="#080a0e" opacity="0.8" transform="translate(0, 6)">OBADA OUTABACHI</text>
 
-    <!-- Gunmetal Core Typography -->
-    <text id="heroTextBase" x="0" y="0" text-anchor="middle" dominant-baseline="central" font-family="'Space Grotesk', 'Syne', -apple-system, sans-serif" font-size="78" font-weight="900" letter-spacing="12" fill="url(#gunmetalGrad)" filter="url(#metalNoise)">OBADA OUTABACHI</text>
+    <!-- Base Gunmetal Typography -->
+    <text x="0" y="0" text-anchor="middle" dominant-baseline="central" font-family="'Space Grotesk', 'Syne', -apple-system, sans-serif" font-size="78" font-weight="900" letter-spacing="12" fill="url(#gunmetalGrad)" filter="url(#metalNoise)">OBADA OUTABACHI</text>
 
-    <!-- Specular Highlight Sheen -->
-    <text id="heroTextStroke" x="0" y="0" text-anchor="middle" dominant-baseline="central" font-family="'Space Grotesk', 'Syne', -apple-system, sans-serif" font-size="78" font-weight="900" letter-spacing="12" fill="none" stroke="url(#gunmetalSpecular)" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" opacity="0.9">OBADA OUTABACHI</text>
+    <!-- Specular Stroke -->
+    <text x="0" y="0" text-anchor="middle" dominant-baseline="central" font-family="'Space Grotesk', 'Syne', -apple-system, sans-serif" font-size="78" font-weight="900" letter-spacing="12" fill="none" stroke="url(#gunmetalSpecular)" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" opacity="0.9">OBADA OUTABACHI</text>
 
-    <!-- Sweeping Edge Light Scanner Line -->
+    <!-- Scanner Gleam -->
     <g clip-path="url(#textClipMask)">
       <rect class="anim-gleam" x="0" y="-80" width="220" height="160" fill="url(#edgeGleamGrad)" mix-blend-mode="overlay" opacity="0.6"/>
     </g>
 
-    <!-- Subtitle Tech Vector Metadata -->
+    <!-- Subtitle -->
     <g transform="translate(0, 72)" opacity="0.6">
       <line x1="-160" y1="0" x2="160" y2="0" stroke="#374151" stroke-width="0.8"/>
       <line x1="-30" y1="0" x2="30" y2="0" stroke="#718096" stroke-width="1.4"/>
       <text y="22" text-anchor="middle" fill="#6b7a90" font-size="11" font-family="monospace" letter-spacing="7" font-weight="500">AUTONOMOUS SYSTEMS // ZERO GRAVITY</text>
     </g>
 
-    <!-- Sleek Bracket Accents -->
+    <!-- Tech Accents -->
     <path d="M -490 -45 L -510 -45 L -510 45 L -490 45" fill="none" stroke="#36404e" stroke-width="1.5" opacity="0.5"/>
     <path d="M 490 -45 L 510 -45 L 510 45 L 490 45" fill="none" stroke="#36404e" stroke-width="1.5" opacity="0.5"/>
   </g>
 
-  <!-- Foreground Vignette Frame -->
+  <!-- Outer Vignette Frame -->
   <rect width="1200" height="700" fill="none" stroke="#040507" stroke-width="2" pointer-events="none"/>
 </svg>
