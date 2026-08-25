@@ -10,37 +10,51 @@
 
     <!-- Nebula Volumes -->
     <radialGradient id="nebulaA" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#2a3344" stop-opacity="0.25"/>
-      <stop offset="50%" stop-color="#151922" stop-opacity="0.1"/>
+      <stop offset="0%" stop-color="#2a3344" stop-opacity="0.22"/>
+      <stop offset="50%" stop-color="#151922" stop-opacity="0.08"/>
       <stop offset="100%" stop-color="#050608" stop-opacity="0"/>
     </radialGradient>
 
     <radialGradient id="nebulaB" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#1e2621" stop-opacity="0.2"/>
-      <stop offset="60%" stop-color="#121816" stop-opacity="0.08"/>
+      <stop offset="0%" stop-color="#1e2621" stop-opacity="0.18"/>
+      <stop offset="60%" stop-color="#121816" stop-opacity="0.06"/>
       <stop offset="100%" stop-color="#050608" stop-opacity="0"/>
     </radialGradient>
 
-    <!-- Brightened Gunmetal Typography Gradients -->
+    <!-- Balanced Gunmetal Typography Gradients -->
     <linearGradient id="gunmetalGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#8a97aa"/>
-      <stop offset="25%" stop-color="#4d5563"/>
-      <stop offset="50%" stop-color="#6b788c"/>
-      <stop offset="75%" stop-color="#3b424e"/>
-      <stop offset="100%" stop-color="#556070"/>
+      <stop offset="0%" stop-color="#6c798c"/>
+      <stop offset="25%" stop-color="#383f4b"/>
+      <stop offset="50%" stop-color="#535e6f"/>
+      <stop offset="75%" stop-color="#252b34"/>
+      <stop offset="100%" stop-color="#454f5d"/>
     </linearGradient>
 
     <linearGradient id="gunmetalSpecular" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#b6c5d9" stop-opacity="0.95"/>
-      <stop offset="40%" stop-color="#606c7d" stop-opacity="0.6"/>
-      <stop offset="55%" stop-color="#2b323d" stop-opacity="0.4"/>
-      <stop offset="100%" stop-color="#8b99ad" stop-opacity="0.85"/>
+      <stop offset="0%" stop-color="#a0b1c7" stop-opacity="0.85"/>
+      <stop offset="40%" stop-color="#4e5968" stop-opacity="0.5"/>
+      <stop offset="55%" stop-color="#20252e" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#728094" stop-opacity="0.75"/>
     </linearGradient>
 
     <linearGradient id="edgeGleamGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#68768a" stop-opacity="0"/>
-      <stop offset="50%" stop-color="#e2ecf8" stop-opacity="0.9"/>
-      <stop offset="100%" stop-color="#68768a" stop-opacity="0"/>
+      <stop offset="0%" stop-color="#5a6575" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#dce6f2" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#5a6575" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- Diagonal Dim Golden/Amber Volumetric Light Ray -->
+    <linearGradient id="goldenBeamGrad" x1="0%" y1="0%" x2="80%" y2="100%">
+      <stop offset="0%" stop-color="#d4a34b" stop-opacity="0.16"/>
+      <stop offset="30%" stop-color="#9a712c" stop-opacity="0.09"/>
+      <stop offset="65%" stop-color="#5a4014" stop-opacity="0.03"/>
+      <stop offset="100%" stop-color="#14171d" stop-opacity="0"/>
+    </linearGradient>
+
+    <linearGradient id="goldenTextSheen" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f0cb7d" stop-opacity="0.25"/>
+      <stop offset="40%" stop-color="#b08332" stop-opacity="0.12"/>
+      <stop offset="80%" stop-color="#4a3512" stop-opacity="0"/>
     </linearGradient>
 
     <!-- AI Vector Symbols (Centered at 0,0) -->
@@ -76,6 +90,7 @@
       <circle cx="0" cy="0" r="14" fill="none" stroke="#36404e" stroke-width="0.6" stroke-dasharray="2, 6" opacity="0.5"/>
     </g>
 
+    <!-- Clip Mask for Hero Typography -->
     <clipPath id="textClipMask">
       <text x="0" y="0" text-anchor="middle" dominant-baseline="central" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="78" font-weight="900" letter-spacing="12">OBADA OUTABACHI</text>
     </clipPath>
@@ -89,6 +104,13 @@
     <animateTransform attributeName="transform" type="translate" values="0,0; 16,12; 0,0" dur="16s" repeatCount="indefinite"/>
     <ellipse cx="420" cy="310" rx="380" ry="240" fill="url(#nebulaA)"/>
     <ellipse cx="820" cy="420" rx="340" ry="210" fill="url(#nebulaB)"/>
+  </g>
+
+  <!-- Layer 0.5: Ambient Diagonal Golden/Amber Volumetric Light Ray -->
+  <g opacity="0.85">
+    <animate attributeName="opacity" values="0.75;0.95;0.75" dur="10s" repeatCount="indefinite"/>
+    <polygon points="120,-40 460,-40 1060,740 480,740" fill="url(#goldenBeamGrad)"/>
+    <polygon points="260,-40 380,-40 880,740 720,740" fill="url(#goldenBeamGrad)" opacity="0.6"/>
   </g>
 
   <!-- Layer 1: Twinkling Stars -->
@@ -153,54 +175,54 @@
     <!-- 1. OpenAI (Upper Track: Left -> Right) -->
     <g>
       <animateTransform attributeName="transform" type="translate" values="250,150; 1300,180; -100,140; 250,150" keyTimes="0; 0.75; 0.7501; 1" dur="26s" repeatCount="indefinite"/>
-      <g opacity="0.38">
+      <g opacity="0.35">
         <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="14s" repeatCount="indefinite"/>
-        <use href="#iconOpenAI" transform="scale(1.5)" fill="#687890"/>
+        <use href="#iconOpenAI" transform="scale(1.5)" fill="#586578"/>
       </g>
     </g>
 
     <!-- 2. Gemini (Upper-Mid Track: Right -> Left) -->
     <g>
       <animateTransform attributeName="transform" type="translate" values="850,250; -100,230; 1300,260; 850,250" keyTimes="0; 0.6786; 0.6787; 1" dur="22s" repeatCount="indefinite"/>
-      <g opacity="0.48">
+      <g opacity="0.42">
         <animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="10s" repeatCount="indefinite"/>
-        <use href="#iconGemini" transform="scale(1.6)" fill="#8494ab"/>
+        <use href="#iconGemini" transform="scale(1.6)" fill="#718096"/>
       </g>
     </g>
 
     <!-- 3. Claude (Lower Track: Left -> Right) -->
     <g>
       <animateTransform attributeName="transform" type="translate" values="100,510; 1300,480; -100,520; 100,510" keyTimes="0; 0.8571; 0.8572; 1" dur="24s" repeatCount="indefinite"/>
-      <g opacity="0.36">
+      <g opacity="0.32">
         <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="12s" repeatCount="indefinite"/>
-        <use href="#iconClaude" transform="scale(1.4)" fill="#627084"/>
+        <use href="#iconClaude" transform="scale(1.4)" fill="#525e70"/>
       </g>
     </g>
 
     <!-- 4. Hermes (High Orbit Track: Left -> Right) -->
     <g>
       <animateTransform attributeName="transform" type="translate" values="700,95; 1300,115; -100,80; 700,95" keyTimes="0; 0.4286; 0.4287; 1" dur="28s" repeatCount="indefinite"/>
-      <g opacity="0.3">
+      <g opacity="0.28">
         <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="16s" repeatCount="indefinite"/>
-        <use href="#iconHermes" transform="scale(1.25)" fill="#4b586c"/>
+        <use href="#iconHermes" transform="scale(1.25)" fill="#414c5c"/>
       </g>
     </g>
 
     <!-- 5. Distant OpenAI (Deep Horizon: Right -> Left) -->
     <g>
       <animateTransform attributeName="transform" type="translate" values="450,440; -100,465; 1300,420; 450,440" keyTimes="0; 0.3929; 0.3930; 1" dur="30s" repeatCount="indefinite"/>
-      <g opacity="0.25">
+      <g opacity="0.22">
         <animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="18s" repeatCount="indefinite"/>
-        <use href="#iconOpenAI" transform="scale(1.1)" fill="#414c5c"/>
+        <use href="#iconOpenAI" transform="scale(1.1)" fill="#353e4c"/>
       </g>
     </g>
 
     <!-- 6. Horizon Gemini (Low Track: Left -> Right) -->
     <g>
       <animateTransform attributeName="transform" type="translate" values="950,610; 1300,590; -100,620; 950,610" keyTimes="0; 0.25; 0.2501; 1" dur="32s" repeatCount="indefinite"/>
-      <g opacity="0.28">
+      <g opacity="0.25">
         <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="9s" repeatCount="indefinite"/>
-        <use href="#iconGemini" transform="scale(1.05)" fill="#56657a"/>
+        <use href="#iconGemini" transform="scale(1.05)" fill="#4a5566"/>
       </g>
     </g>
 
@@ -228,7 +250,7 @@
     <text x="960" y="604" fill="#4d596b" font-size="8" font-family="monospace" letter-spacing="2" text-anchor="end">NEURAL_TELEMETRY: STABLE</text>
   </g>
 
-  <!-- Layer 5: Hero Typography Cluster -->
+  <!-- Layer 5: Hero Typography Cluster with Micro-Details & Amber Sheen -->
   <g>
     <animateTransform attributeName="transform" type="translate" values="600,350; 604,361; 600,350" dur="7s" repeatCount="indefinite"/>
     
@@ -239,26 +261,77 @@
     <!-- Base Gunmetal Core Typography -->
     <text x="0" y="0" text-anchor="middle" dominant-baseline="central" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="78" font-weight="900" letter-spacing="12" fill="url(#gunmetalGrad)">OBADA OUTABACHI</text>
 
-    <!-- Specular Highlight Sheen Edge -->
-    <text x="0" y="0" text-anchor="middle" dominant-baseline="central" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="78" font-weight="900" letter-spacing="12" fill="none" stroke="url(#gunmetalSpecular)" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" opacity="0.95">OBADA OUTABACHI</text>
-
-    <!-- Sweeping Scanner Gleam Line -->
+    <!-- ============================================================ -->
+    <!-- TEXT DETAILS: CRACKS, CIRCUIT BOARD TRACES & AMBER BEAM HIT -->
+    <!-- ============================================================ -->
     <g clip-path="url(#textClipMask)">
+      <!-- Diagonal Amber/Gold Ray Sheen on Typography -->
+      <rect x="-600" y="-80" width="1200" height="160" fill="url(#goldenTextSheen)"/>
+
+      <!-- Dark Fracture Cracks Across Letters -->
+      <g stroke="#14181f" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" opacity="0.85">
+        <!-- 'OBADA' Cracks -->
+        <path d="M -465 -28 L -450 -12 L -440 -15 L -428 5 L -420 28"/>
+        <path d="M -360 -25 L -350 -10 L -358 6 L -345 28"/>
+        <path d="M -260 -30 L -248 -14 L -235 -10 L -225 10 L -215 30"/>
+        <path d="M -160 -26 L -148 -8 L -155 12 L -142 28"/>
+        <path d="M -70 -30 L -55 -15 L -62 4 L -48 26"/>
+        
+        <!-- 'OUTABACHI' Cracks -->
+        <path d="M 45 -28 L 60 -10 L 52 8 L 65 30"/>
+        <path d="M 140 -30 L 155 -12 L 148 5 L 160 28"/>
+        <path d="M 235 -26 L 248 -10 L 240 10 L 255 28"/>
+        <path d="M 330 -30 L 342 -14 L 355 -8 L 348 12 L 360 30"/>
+        <path d="M 425 -28 L 440 -12 L 432 8 L 445 28"/>
+      </g>
+
+      <!-- Electronic PCB Circuit Board Traces -->
+      <g fill="none" stroke="#1d242e" stroke-width="0.9" stroke-linecap="square" opacity="0.9">
+        <path d="M -500 12 H -470 L -455 -3 H -410 L -395 12 H -360"/>
+        <path d="M -390 -22 H -360 L -345 -7 V 15 L -330 30 H -290"/>
+        <path d="M -280 18 H -240 L -225 3 H -180 L -165 -12 H -130"/>
+        <path d="M -150 -20 H -110 L -95 -5 V 20 H -60"/>
+        <path d="M -60 15 H -20 L -5 0 H 40 L 55 -15 H 90"/>
+        <path d="M 80 -22 H 120 L 135 -7 V 18 H 175"/>
+        <path d="M 170 14 H 210 L 225 -1 H 270 L 285 -16 H 320"/>
+        <path d="M 300 -20 H 340 L 355 -5 V 16 H 395"/>
+        <path d="M 390 12 H 430 L 445 -3 H 490"/>
+      </g>
+
+      <!-- Circuit Solder Pads & Amber Glowing Vias -->
+      <g>
+        <circle cx="-470" cy="12" r="1.8" fill="#14181f" stroke="#5c451b" stroke-width="0.7"/>
+        <circle cx="-410" cy="-3" r="1.8" fill="#a87f32" opacity="0.7"/>
+        <circle cx="-345" cy="-7" r="1.8" fill="#14181f" stroke="#5c451b" stroke-width="0.7"/>
+        <circle cx="-240" cy="18" r="1.8" fill="#a87f32" opacity="0.6"/>
+        <circle cx="-180" cy="3" r="1.8" fill="#14181f" stroke="#5c451b" stroke-width="0.7"/>
+        <circle cx="-95" cy="-5" r="1.8" fill="#a87f32" opacity="0.8"/>
+        <circle cx="40" cy="0" r="1.8" fill="#14181f" stroke="#5c451b" stroke-width="0.7"/>
+        <circle cx="135" cy="-7" r="1.8" fill="#a87f32" opacity="0.7"/>
+        <circle cx="225" cy="-1" r="1.8" fill="#14181f" stroke="#5c451b" stroke-width="0.7"/>
+        <circle cx="340" cy="-20" r="1.8" fill="#a87f32" opacity="0.75"/>
+        <circle cx="445" cy="-3" r="1.8" fill="#14181f" stroke="#5c451b" stroke-width="0.7"/>
+      </g>
+
+      <!-- Sweeping Scanner Gleam Line -->
       <rect y="-80" width="220" height="160" fill="url(#edgeGleamGrad)" transform="skewX(-25)">
         <animate attributeName="x" values="-600; 800" dur="2.6s" repeatCount="indefinite"/>
       </rect>
     </g>
 
+    <!-- Specular Highlight Sheen Edge -->
+    <text x="0" y="0" text-anchor="middle" dominant-baseline="central" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="78" font-weight="900" letter-spacing="12" fill="none" stroke="url(#gunmetalSpecular)" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" opacity="0.9">OBADA OUTABACHI</text>
+
     <!-- Subtitle Tech Vector Metadata -->
     <g transform="translate(0, 72)" opacity="0.7">
       <line x1="-160" y1="0" x2="160" y2="0" stroke="#374151" stroke-width="0.8"/>
-      <line x1="-30" y1="0" x2="30" y2="0" stroke="#8494ab" stroke-width="1.4"/>
-      <text y="22" text-anchor="middle" fill="#8494ab" font-size="11" font-family="monospace" letter-spacing="7" font-weight="500">AUTONOMOUS SYSTEMS // ZERO GRAVITY</text>
+      <line x1="-30" y1="0" x2="30" y2="0" stroke="#7e8c9f" stroke-width="1.4"/>
+      <text y="22" text-anchor="middle" fill="#7e8c9f" font-size="11" font-family="monospace" letter-spacing="7" font-weight="500">AUTONOMOUS SYSTEMS // ZERO GRAVITY</text>
     </g>
 
     <!-- Bracket Accents -->
-    <path d="M -490 -45 L -510 -45 L -510 45 L -490 45" fill="none" stroke="#4a5568" stroke-width="1.5" opacity="0.6"/>
-    <path d="M 490 -45 L 510 -45 L 510 45 L 490 45" fill="none" stroke="#4a5568" stroke-width="1.5" opacity="0.6"/>
+    <path d="M -490 -45 L -510 -45 L -510 45 L -490 45" fill="none" stroke="#414c5c" stroke-width="1.5" opacity="0.6"/>
+    <path d="M 490 -45 L 510 -45 L 510 45 L 490 45" fill="none" stroke="#414c5c" stroke-width="1.5" opacity="0.6"/>
   </g>
 
   <!-- Frame Border -->
